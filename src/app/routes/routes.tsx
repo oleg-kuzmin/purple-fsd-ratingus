@@ -1,4 +1,5 @@
 import { createBrowserRouter } from 'react-router';
+import { CategoryPage } from '../../pages/category';
 
 export const router = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ export const router = createBrowserRouter([
       },
       {
         path: ':category',
-        element: <a>Category</a>,
+        Component: CategoryPage,
       },
       {
         path: 'article',
