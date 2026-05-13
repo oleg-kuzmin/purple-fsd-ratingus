@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router';
 import { CategoryPage } from '../../pages/category';
 import { Layout } from '../layout';
+import { MainPage } from '../../pages/main';
 
 export const router = createBrowserRouter([
   {
@@ -9,7 +10,7 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <a>Main</a>,
+        Component: MainPage,
       },
       {
         path: 'community',
