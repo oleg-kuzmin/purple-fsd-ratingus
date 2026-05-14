@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router';
-import { Footer } from '../../shared/ui';
-import { Icon } from '../../assets/Icon/Icon';
+import { Footer } from '@/shared/ui';
+import { Icon } from '@/assets/Icon/Icon';
 
 export function Layout() {
   return (
