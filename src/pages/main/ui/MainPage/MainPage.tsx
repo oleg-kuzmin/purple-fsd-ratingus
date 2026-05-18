@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { ROUTES } from '../../../../shared/routes';
+import { ROUTES } from '@/shared/routes';
 
 export function MainPage() {
   return (
